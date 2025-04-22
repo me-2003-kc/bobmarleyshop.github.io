@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Bob Marley Official Shop</title>
+    <link rel="icon" type="image/png" href="images/icon.png.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+     <!-- Top Announcement Bar -->
+     <div class="announcement-bar">
+        <div class="container">
+            <p>🔥 Free delivery on orders over 200,000 UGX | Use code: ONELOVE20 for 20% off first order</p>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/icon.png.png" alt="Bob Marley Shop Logo">
+                <span>BOB MARLEY OFFICIAL SHOP</span>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">☰</button>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item has-dropdown">
+                        <a href="shop.html" class="nav-link active">Shop</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="shop.html#tshirts">T-Shirts</a></li>
+                            <li><a href="shop.html#hoodies">Hoodies</a></li>
+                            <li><a href="shop.html#accessories">Accessories</a></li>
+                            <li><a href="shop.html#kids">Kids</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Shop Hero -->
+    <section class="page-hero" style="background-image: url('images/face4.jpg');">
+        <div class="container">
+            <h1>OFFICIAL BOB MARLEY MERCHANDISE</h1>
+            <p>Authentic, licensed products celebrating the legend</p>
+        </div>
+    </section>
+
+    <!-- Shop Filters -->
+    <section class="shop-filters">
+        <div class="container">
+            <div class="filter-group">
+                <label for="category-filter">Category:</label>
+                <select id="category-filter">
+                    <option value="all">All Products</option>
+                    <option value="tshirts">T-Shirts</option>
+                    <option value="hoodies">Hoodies</option>
+                    <option value="accessories">Accessories</option>
+                    <option value="kids">Kids</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="price-filter">Price:</label>
+                <select id="price-filter">
+                    <option value="all">All Prices</option>
+                    <option value="0-50000">Under 50,000 UGX</option>
+                    <option value="50000-100000">50,000 - 100,000 UGX</option>
+                    <option value="100000">Over 100,000 UGX</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="sort-by">Sort By:</label>
+                <select id="sort-by">
+                    <option value="popular">Most Popular</option>
+                    <option value="newest">Newest</option>
+                    <option value="price-low">Price: Low to High</option>
+                    <option value="price-high">Price: High to Low</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <!-- T-Shirts Section -->
+    <section class="shop-section" id="tshirts">
+        <div class="container">
+            <h2 class="section-title">T-SHIRTS</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="tshirts" data-price="50000">
+                    <div class="product-badge">BESTSELLER</div>
+                    <div class="product-image">
+                        <img src="images/illustration-skull-reggae-color-with-t-shirt-design_373096-258 - Copy.avif" alt="One Love T-Shirt">
+                    
+                    </div>
+                    <div class="product-info">
+                        <h3>One Love skull T-Shirt</h3>
+                        <div class="product-price">
+                            <span class="current-price">50,000 UGX</span>
+                        </div>
+                        <button href="cart.html" class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="tshirts" data-price="55000">
+                    <div class="product-image">
+                        <img src="images/PRODUCT_BOBM_24_ECOMM_DB_ONELOVE_1-500x500.webp" alt="Legend T-Shirt">
+                    
+                    </div>
+                    <div class="product-info">
+                        <h3>Legend T-Shirt</h3>
+                        <div class="product-price">
+                            <span class="current-price">55,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="tshirts" data-price="60000">
+                    <div class="product-badge">NEW</div>
+                    <div class="product-image">
+                        <img src="images/catch-a-fire-tie-dye-tee-500x500.webp" alt="Redemption Song T-Shirt">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Catch-A-Fire DyeT-Shirt</h3>
+                        <div class="product-price">
+                            <span class="current-price">60,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="tshirts" data-price="45000">
+                    <div class="product-image">
+                        <img src="images/Bob Marley - Brazil Colorway - T-Shirt - Summer Reggae Tee.jfif" alt="Three Little Birds T-Shirt">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Three Little Birds T-Shirt</h3>
+                        <div class="product-price">
+                            <span class="current-price">45,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                  <!-- Product 5-->
+                  <div class="product-card" data-category="tshirts" data-price="60000">
+                    
+                    <div class="product-image">
+                        <img src="images/download (3).jfif" alt="Redemption Song T-Shirt">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Legend DyeT-Shirt</h3>
+                        <div class="product-price">
+                            <span class="current-price">35,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                  <!-- Product 6 -->
+                  <div class="product-card" data-category="tshirts" data-price="60000">
+                    <div class="product-badge">NEW</div>
+                    <div class="product-image">
+                        <img src="images/catch-a-fire-tie-dye-green-tee-500x500.webp" alt="Redemption Song T-Shirt">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>DyeT-Shirt Green</h3>
+                        <div class="product-price">
+                            <span class="current-price">25,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                  <!-- Product 7 -->
+                  <div class="product-card" data-category="tshirts" data-price="60000">
+                    
+                    <div class="product-image">
+                        <img src="images/face5.jpg" alt="Redemption Song T-Shirt">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Black Grafitti T-Shirt</h3>
+                        <div class="product-price">
+                            <span class="current-price">60,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                  <!-- Product 3 -->
+                  <div class="product-card" data-category="tshirts" data-price="60000">
+                    <div class="product-badge">Few Units Left</div>
+                    <div class="product-image">
+                        <img src="images/slider1.jpg" alt="Redemption Song T-Shirt">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Exodus shirt</h3>
+                        <div class="product-price">
+                            <span class="current-price">55,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                  <!-- Product 3 -->
+                  <div class="product-card" data-category="tshirts" data-price="60000">
+                    <div class="product-badge">2 Units Remaining</div>
+                    <div class="product-image">
+                        <img src="images/slider2.jpg" alt="Redemption Song T-Shirt">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>The Tuff Gong Shirt</h3>
+                        <div class="product-price">
+                            <span class="current-price">35,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                  <!-- Product 3 -->
+                  <div class="product-card" data-category="tshirts" data-price="60000">
+                    <div class="product-badge">NEW</div>
+                    <div class="product-image">
+                        <img src="images/slider3.jpg" alt="Redemption Song T-Shirt">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Bob Sleevless T-Shirt</h3>
+                        <div class="product-price">
+                            <span class="current-price">60,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hoodies Section -->
+    <section class="shop-section" id="hoodies">
+        <div class="container">
+            <h2 class="section-title">HOODIES</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="hoodies" data-price="120000">
+                    <div class="product-badge">BESTSELLER</div>
+                    <div class="product-image">
+                        <img src="images/BM-hoodie-Front-500x500.webp" alt="Legend Hoodie">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Legend Hoodie</h3>
+                        <div class="product-price">
+                            <span class="current-price">120,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="hoodies" data-price="110000">
+                    <div class="product-image">
+                        <img src="images/One-Love-Hoodie.avif" alt="One Love Hoodie">
+                    
+                    </div>
+                    <div class="product-info">
+                        <h3>One Love Hoodie</h3>
+                        <div class="product-price">
+                            <span class="current-price">110,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="hoodies" data-price="130000">
+                    <div class="product-badge">NEW</div>
+                    <div class="product-image">
+                        <img src="images/Image20250128151359.webp" alt="Exodus Hoodie">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Exodus Hoodie</h3>
+                        <div class="product-price">
+                            <span class="current-price">130,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="hoodies" data-price="100000">
+                    <div class="product-image">
+                        <img src="images/hood.avif" alt="Rasta Hoodie">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Rasta Hoodie</h3>
+                        <div class="product-price">
+                            <span class="current-price">100,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="hoodies" data-price="110000">
+                    <div class="product-badge">Few Units Remaining</div>
+                    <div class="product-image">
+                        <img src="images/Product_Marley_Island_Ecomm_2024_CT_WHoodie_Back.webp" alt="One Love Hoodie">
+                    
+                    </div>
+                    <div class="product-info">
+                        <h3>Marley Uprising Hoodie</h3>
+                        <div class="product-price">
+                            <span class="current-price">65,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="hoodies" data-price="110000">
+                    <div class="product-image">
+                        <img src="images/Product_Marley_Island_Ecomm_2024_CT_WHoodie_Front.webp" alt="One Love Hoodie">
+                    
+                    </div>
+                    <div class="product-info">
+                        <h3>The Wailers Hoodie</h3>
+                        <div class="product-price">
+                            <span class="current-price">55,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="hoodies" data-price="110000">
+                    <div class="product-badge">Few Units Remaining</div>
+                    <div class="product-image">
+                        <img src="images/PRODUCT_BOBM_24_ECOMM_UPRISINGHOODIE_F-500x500.webp" alt="One Love Hoodie">
+                    
+                    </div>
+                    <div class="product-info">
+                        <h3>Uprising Black Hoodie</h3>
+                        <div class="product-price">
+                            <span class="current-price">75,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="hoodies" data-price="110000">
+                    <div class="product-image">
+                        <img src="images/face12.jpg" alt="One Love Hoodie">
+                    
+                    </div>
+                    <div class="product-info">
+                        <h3>Black Picture Hoodie</h3>
+                        <div class="product-price">
+                            <span class="current-price">85,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accessories Section -->
+    <section class="shop-section" id="accessories">
+        <div class="container">
+            <h2 class="section-title">ACCESSORIES</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="accessories" data-price="25000">
+                    <div class="product-image">
+                        <img src="images/towel.webp" alt="One Love Tote Bag">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Bob Marley Print Towel</h3>
+                        <div class="product-price">
+                            <span class="current-price">25,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card" data-category="accessories" data-price="30000">
+                    <div class="product-image">
+                        <img src="images/hat.jfif" alt="Rasta Beanie">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Rasta Beanie</h3>
+                        <div class="product-price">
+                            <span class="current-price">30,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card" data-category="accessories" data-price="35000">
+                    <div class="product-badge">NEW</div>
+                    <div class="product-image">
+                        <img src="images/shoes.jpg" alt="Lion of Judah Necklace">
+                    
+                    </div>
+                    <div class="product-info">
+                        <h3>Rasta Allstar Shoes</h3>
+                        <div class="product-price">
+                            <span class="current-price">35,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card" data-category="accessories" data-price="20000">
+                    <div class="product-image">
+                        <img src="images/slides.avif" alt="Bob Marley Wristband">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Bob Marley slides</h3>
+                        <div class="product-price">
+                            <span class="current-price">20,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                <!--pdt4-->
+                <div class="product-card" data-category="accessories" data-price="20000">
+                    <div class="product-image">
+                        <img src="images/Catch-A-Fire-Lithp-500x500.webp" alt="Bob Marley Wristband">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Bob Marley Inframe Poster</h3>
+                        <div class="product-price">
+                            <span class="current-price">20,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                <!--pdt5-->
+                <div class="product-card" data-category="accessories" data-price="20000">
+                    <div class="product-image">
+                        <img src="images/11436-04281-OS_03-500x500.webp" alt="Bob Marley Wristband">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Back Pack</h3>
+                        <div class="product-price">
+                            <span class="current-price">50,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                <!--pdt6-->
+                <div class="product-card" data-category="accessories" data-price="20000">
+                    <div class="product-image">
+                        <img src="images/bag.avif" alt="Bob Marley Wristband">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Tootie Bag</h3>
+                        <div class="product-price">
+                            <span class="current-price">45,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                <!--pdt6-->
+                <div class="product-card" data-category="accessories" data-price="20000">
+                    <div class="product-image">
+                        <img src="images/cup.avif" alt="Bob Marley Wristband">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Bob Marley Cup</h3>
+                        <div class="product-price">
+                            <span class="current-price">20,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                <!--pdt7-->
+                <div class="product-card" data-category="accessories" data-price="20000">
+                    <div class="product-image">
+                        <img src="images/socks.avif" alt="Bob Marley Wristband">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>The Uprising Socks</h3>
+                        <div class="product-price">
+                            <span class="current-price">20,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+                <!--pdt8-->
+                <div class="product-card" data-category="accessories" data-price="20000">
+                    <div class="product-image">
+                        <img src="images/tote.avif" alt="Bob Marley Wristband">
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Bag</h3>
+                        <div class="product-price">
+                            <span class="current-price">45,000 UGX</span>
+                        </div>
+                        <button class="btn add-to-cart">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kids Section -->
+<section class="shop-section" id="kids">
+    <div class="container">
+        <h2 class="section-title">KIDS COLLECTION</h2>
+        <div class="products-grid">
+            <!-- Product 1 -->
+            <div class="product-card" data-category="kids" data-price="35000">
+                <div class="product-badge">BESTSELLER</div>
+                <div class="product-image">
+                    <img src="images/kid1.avif" alt="Kids One Love T-Shirt">
+                </div>
+                <div class="product-info">
+                    <h3>Kids One Love overall</h3>
+                    <div class="product-price">
+                        <span class="current-price">35,000 UGX</span>
+                    </div>
+                    <button class="btn add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-card" data-category="kids" data-price="40000">
+                <div class="product-image">
+                    <img src="images/kid2.avif" alt="Kids Legend T-Shirt">
+                </div>
+                <div class="product-info">
+                    <h3>Kids Legend Hoodie</h3>
+                    <div class="product-price">
+                        <span class="current-price">40,000 UGX</span>
+                    </div>
+                    <button class="btn add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            
+            <!-- Product 3 -->
+            <div class="product-card" data-category="kids" data-price="45000">
+                <div class="product-badge">NEW</div>
+                <div class="product-image">
+                    <img src="images/kid3.webp" alt="Kids Rasta Hoodie">
+                </div>
+                <div class="product-info">
+                    <h3>Kids Rasta Cap</h3>
+                    <div class="product-price">
+                        <span class="current-price">45,000 UGX</span>
+                    </div>
+                    <button class="btn add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+            
+            <!-- Product 4 -->
+            <div class="product-card" data-category="kids" data-price="25000">
+                <div class="product-image">
+                    <img src="images/BIB3.avif" alt="Kids Rasta Cap">
+                </div>
+                <div class="product-info">
+                    <h3>Kids Rasta Bib</h3>
+                    <div class="product-price">
+                        <span class="current-price">25,000 UGX</span>
+                    </div>
+                    <button class="btn add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Quick View Modal -->
+    <div class="modal" id="quick-view-modal">
+        <div class="modal-content">
+            <button class="close-modal">&times;</button>
+            <div class="modal-product">
+                <div class="modal-product-image">
+                    <img src="" alt="" id="modal-product-img">
+                </div>
+                <div class="modal-product-info">
+                    <h2 id="modal-product-title"></h2>
+                    <div class="product-price">
+                        <span class="current-price" id="modal-product-price"></span>
+                    </div>
+                    <p id="modal-product-desc"></p>
+                    <div class="size-selector">
+                        <label>Size:</label>
+                        <select id="product-size">
+                            <option value="S">Small</option>
+                            <option value="M">Medium</option>
+                            <option value="L">Large</option>
+                            <option value="XL">XL</option>
+                        </select>
+                    </div>
+                    <div class="quantity-selector">
+                        <label>Quantity:</label>
+                        <input type="number" min="1" value="1" id="product-quantity">
+                    </div>
+                    <button class="btn add-to-cart">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>SHOP</h3>
+                    <ul>
+                        <li><a href="shop.html#tshirts">T-Shirts</a></li>
+                        <li><a href="shop.html#hoodies">Hoodies</a></li>
+                        <li><a href="shop.html#accessories">Accessories</a></li>
+                        <li><a href="shop.html#kids">Kids Collection</a></li>
+                        <li><a href="new-arrivals.html">New Arrivals</a></li>
+                        <li><a href="deals.html">Today's Deals</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>CUSTOMER SERVICE</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="about.html">FAQs</a></li>
+                        <li><a href="cart.html">Shipping Policy</a></li>
+                        <li><a href="contact.html">Returns & Exchanges</a></li>
+                        <li><a href="shop.html">Size Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>ABOUT US</h3>
+                    <ul>
+                        <li><a href="about.html">Our Story</a></li>
+                        <li><a href="about.html">Bob's Legacy</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>CONNECT</h3>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/BobMarley" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.Instagram.com/BobMarley" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.X.com/BobMarley" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.youtube.com/BobMarley" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="payment-methods">
+                        <img src="images/visa.png" alt="Visa">
+                        <img src="images/mastercard.png" alt="Mastercard">
+                        <img src="images/" alt="MTN Mobile Money">
+                        <img src="images/" alt="Airtel Money">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 BOB MARLEY OFFICIAL SHOP. ALL RIGHTS RESERVED.</p>
+                <p>Fort Portal, Uganda</p>
+                <div class="legal-links">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="shop.js"></script>
+    <script src="cart.js"></script>
+    <script src="products.js"></script>
+</body>
+</html>
